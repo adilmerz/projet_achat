@@ -1,0 +1,37 @@
+body {
+    background-image: url("../../images/images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-blues{
+    color:#2D6BA8;
+}
+.text-blues2{
+    color:#2D307F;
+}
+
+.text-line{
+    text-decoration: underline;
+}
+
+.one, .two, .three{
+    position:absolute;
+    margin: 0;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+
+}
+.one{
+	left:0%;
+}
+.two{
+	left:73%;
+}
+.three{
+	left:98%;
+}
